@@ -75,6 +75,6 @@ for movie in movies:
 
 browser.quit()
 
-
+# 동적으로 움직이는 페이지에 자동으로 스크롤을 집어넣고 스크롤을 가장 아래 내린 다음 selenium을 통해 가져온 페이지 소스에 대해 웹 스크래핑
 
 

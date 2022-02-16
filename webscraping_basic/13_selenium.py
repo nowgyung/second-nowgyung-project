@@ -1,4 +1,14 @@
 # 웹 페이지 테스트 자동화 프레임워크, 웹 브라우저를 컨트롤 하면서  필요한 작업한다
+# 동작속도 늦고 메모리도 차지하는 편, requests와 다르게 동적 웹 페이지 작업 가능
+# requests와 selenium html 문서를 가져오는 방식의 차이 일뿐, beautifulsoup을 이용해서 데이터 추출
+# 크롬 버전에 맞는 크롬드라이버가 반드시 있어야 한다
+# find_element(s)_by_id id로 찾기
+# find_element(s)_by_class_name class name으로 찾기
+# find_element(s)_by_link_text 링크 text로 찾기
+# find_element(s)_by_xpath xpath로 찾기
+# click() 클릭
+# send_keys() 글자 입력 / 이미 다른 글자가 있다면 clear()로 삭제후 진행
+
 
 import time
 from selenium import webdriver
